@@ -1,0 +1,9 @@
+[Unit]
+Description=Faster
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/faster
+
+[Install]
+WantedBy=default.target
